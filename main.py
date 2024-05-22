@@ -53,7 +53,8 @@ if __name__ == "__main__":
                  train_y=train_split_y,
                  test_X=test_split_X,
                  test_y=test_split_y,
-                 features=features
+                 features=features,
+                 is_smrt=is_smrt
             )
 
             preprocessed_train_split_y, preprocessed_test_split_y, preproc_y = preprocessing.preprocess_y(
